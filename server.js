@@ -81,7 +81,7 @@ import cors from "cors";
 import http from "http";
 import path from "path";
 import { Server } from "socket.io";
-import ACTIONS from "../src/Actions.js";
+import ACTIONS from "./Actions.js";
 
 const app = express();
 app.use(cors());
